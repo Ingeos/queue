@@ -241,7 +241,6 @@ msgstr "Clave de Identidad"
 #. module: queue_job
 #: code:addons/queue_job/models/queue_job.py:289
 #, fuzzy, python-format
-#| msgid "The selected jobs will be requeued."
 msgid "If both parameters are 0, ALL jobs will be requeued!"
 msgstr "Los trabajos seleccionados serán solicitados."
 
@@ -303,7 +302,7 @@ msgid "Job failed"
 msgstr "Trabajo fallido"
 
 #. module: queue_job
-#: code:addons/queue_job/controllers/main.py:100
+#: code:addons/queue_job/controllers/main.py:102
 #, python-format
 msgid "Job interrupted and set to Done: nothing to do."
 msgstr "Trabajo interrumpido y configurado como Listo: nada que hacer."
